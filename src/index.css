@@ -1,3 +1,27 @@
+@font-face {
+  font-family: 'Google Sans';
+  src: url('./assets/fonts/google_sans/GoogleSans-Regular.eot');
+  src: local('Google Sans Regular'), local('GoogleSans-Regular'),
+      url('./assets/fonts/google_sans/GoogleSans-Regular.eot?#iefix') format('embedded-opentype'),
+      url('./assets/fonts/google_sans/GoogleSans-Regular.woff2') format('woff2'),
+      url('./assets/fonts/google_sans/GoogleSans-Regular.woff') format('woff'),
+      url('./assets/fonts/google_sans/GoogleSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: './assets/fonts/google_sans/Google Sans';
+  src: url('./assets/fonts/google_sans/GoogleSans-Medium.eot');
+  src: local('./assets/fonts/google_sans/Google Sans Medium'), local('GoogleSans-Medium'),
+      url('./assets/fonts/google_sans/GoogleSans-Medium.eot?#iefix') format('embedded-opentype'),
+      url('./assets/fonts/google_sans/GoogleSans-Medium.woff2') format('woff2'),
+      url('./assets/fonts/google_sans/GoogleSans-Medium.woff') format('woff'),
+      url('./assets/fonts/google_sans/GoogleSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +34,18 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.headline{
+  font: 400 36px / 1.22222 "Google Sans",sans-serif;
+  padding-top: 64px;
+  padding-bottom: 32px;
+
+}
+
+main{
+  margin: 56px 0 0 72px;
+  background-color: rgba(0, 0, 255, 0.322);
+  box-sizing: border-box;
+  
 }
